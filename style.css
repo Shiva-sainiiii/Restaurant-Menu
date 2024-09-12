@@ -1,0 +1,484 @@
+  *{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;}
+
+  html,body{ 
+  height:100%;
+  width:100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  user-select:none;
+  }
+  
+  #loader{
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:#222;
+  overflow:hidden;
+  z-index:10;
+  }
+  
+  
+  
+  
+  
+  #loader2{
+  width:100vw;
+  height:0vh;
+  position:fixed;
+  background-color:red;
+  bottom:0;
+  z-index:10;
+  background-color: #a2d9ca;
+  }
+  
+  
+  #title{
+  width:50vw;
+  height:5vh;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  color:white;
+  
+  }
+  
+  #title h1{position: absolute;
+  bottom:-100%;
+  font-size:3vh;
+  font-weight:500;
+  font-style:italic;}
+  
+  
+ #home{
+ width:100vw;
+ height:100vh;
+
+ }
+ 
+#menu { 
+position:relative;
+
+width: 100vw;
+ height: 90vh; 
+ position: fixed; 
+ top: 20vh; 
+ background-color: #a2d9ca; 
+ overflow-y: auto; 
+ display: flex; 
+flex-wrap:wrap;
+padding-top:10vh;
+padding-bottom:40vh;
+border-top-left-radius:40px;
+align-items:center;
+justify-content:space-evenly;
+
+ }
+ 
+
+.card {
+  width: 45vw;
+  height: 30vh;
+  margin: 1vh;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  display:flex;
+  position:relative;
+  flex-direction:column;
+  transition:all ease-in-out .5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+    
+   #menunav{width:100vw;
+    height:10vh;
+    position:fixed;
+    top:20vh;
+border-top-left-radius:40px;
+
+ display:flex;
+ align-items:center;
+ overflow-X:auto;
+ justify-content:space-evely;
+ gap:20px;
+ padding:0vh 10vw;
+ background-color: #a2d9ca; 
+    } 
+    
+    #nav{width:100vw;
+     height:auto;
+     padding:2vh 7vw;
+
+     display:flex;
+      justify-content:space-between;
+      align-items:center;
+      }
+      #nav i {
+
+      font-size:3.5vh;
+      color:#009787;
+      }
+      i{
+      color:#009787;
+      }
+     
+      #bottomnav{width:100vw;
+       height:10vh;
+        position:fixed;
+        z-index:2;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+font-size:3.5vh;
+color:#009787;
+         bottom:0;
+         background-color:white;
+         border-top-left-radius:30px;
+       border-top-right-radius:30px;
+ box-shadow:0px 5px 20px rgba(0,0,0,0.5) ;       
+         }
+
+         #searchbox{
+         position:relative;
+         display:flex;
+         align-items:center;
+         justify-content:center;
+         width:100vw;
+         height:8vh;
+    
+         }
+         
+         #searchbox input{
+         width:90vw;
+         height:8vh;
+         font-size:2.5vh;
+         padding:0vh 5vw;
+         position:absolute;
+         border:none;
+         border-bottom:1px solid gray;
+         }
+         #searchbox i{  position:absolute;
+         right:10vw;
+            font-size:2.5vh;
+         }
+         
+      #searchbox input:focus{ 
+      box-shadow:none;
+outline:none;
+        }
+        
+        .food{
+        height:70%;
+        width:100%;
+
+
+        
+        }
+        
+        
+    .food1{
+    background-position:center;
+    background-size:cover;
+    background-image:url("food1.jpg"); 
+    }
+    
+    .food2{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food2.jpeg"); 
+    }
+    .food3{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food3.jpeg"); 
+    }
+    .food4{
+     background-position:center;
+    background-size:cover;
+    background-image:url("food4.jpeg"); 
+    }
+    .food5{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food5.jpg"); 
+    }
+    .food6{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food6.jpeg"); 
+    }
+    
+    .food7{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food7.jpeg"); 
+    }
+    .food8{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food8.jpeg"); 
+    }
+    .food9{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food9.jpeg"); 
+    }
+    .food10{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food10.jpeg"); 
+    }
+    .food11{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food11.jpeg"); 
+    }
+    
+    .food12{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food12.jpeg"); 
+    }
+    
+    .food13{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food13.jpeg"); 
+    }
+    .food14{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food14.jpeg"); 
+    }
+    .food15{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food15.jpeg"); 
+    }
+    .food16{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food16.jpeg"); 
+    }
+    .food17{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food17.jpeg"); 
+    }
+    .food18{
+        background-position:center;
+    background-size:cover;
+    background-image:url("food18.jpeg"); 
+    }
+    
+
+.name{
+position:absolute;
+bottom:7vw;
+left:1vw;
+padding: 1vh;
+font-size:2vh;
+
+}
+    .ratings {
+    position:absolute;
+    bottom:8vw;
+    right:0;
+    margin-top:-5vw;
+    padding: 1vh;
+    font-size: 1vh;
+    color: orangered;
+    }
+    
+    .timer {
+    position:absolute;
+    bottom:2.5vw;
+   right:3vw;
+    padding: 1.vh;
+    display:flex;
+    align-items:center;
+    gap:1vw;
+    justify-content:space-between;
+    font-size: 0.8em;
+    color: #666;
+    }
+    .timer i{
+    font-size:1.5vh;
+    }
+    
+    .price {
+    position:absolute;
+    bottom:0vw;
+    left:1.5vw;
+    padding: 1vh;
+    font-size: 2.2vh;
+    font-weight: bold;
+    color: #333;
+    color:green;
+    }
+    #fooddetails{position:fixed;
+    top:0;
+    width:0vw;
+    height:100vh;
+    overflow:hidden;
+    background-color:white;
+
+    
+    }
+    
+    #foodimage{width:100vw;
+    position:absolute;
+    height:35vh;
+    top:0;
+background-position:center;
+background-size:cover;
+background-image:none; 
+   
+    background-color:yellow;
+    }
+    #navbar{
+    
+   position:absolute;
+   top:0;
+   padding:0vh 10vw;
+   font-size:3vh;
+   width:100vw;
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    }
+    #foodinfo{
+    width:100vw;
+    position:absolute;
+    height:55vh;
+    top:35vh;
+    background-color:white;
+    }
+    #info1{
+    
+       position:absolute;
+       top:0;
+padding:0vh 10vw;
+padding-right:5vw;
+       font-size:3vh;
+       width:100vw;
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+    }	
+    
+    .timers{font-size:2.5vh;}
+    .rating{font-size:1.8vh;
+    }
+    #esehi{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    gap:5vw}
+    
+    .prices{
+    color:green;
+    font-weight:bold;}
+    
+    .rating{
+        color:orangered;
+    }
+    
+ #pricee{
+margin-left:-5vw;
+margin-top:.5vh; 
+ }   
+#nammes{
+margin-left:-5vw;
+font-size:3.5vh;
+margin-top:3vh; 
+ }
+ 
+ #info2{
+ 
+    position:absolute;
+    top:10vh;
+padding:0vh 5vw;
+padding-right:10vw;
+    font-size:2vh;
+    width:100vw;
+ height:20vh;
+ display:flex;
+ align-items:center;
+text-align:left;
+}
+
+#info3{
+position:absolute;
+top:27vh;
+padding-right:10vw;
+font-size:2vh;
+width:100vw;
+height:25vh;
+overflow-X: auto;
+
+}
+
+table {
+
+padding:10px;
+border-spacing:10px 0px;
+  border-collapse: separate;
+  width: 50%;
+}
+tr{
+
+height:22vh;
+}
+
+th{box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+
+border: none;
+padding:0vw 19vw;
+text-align: left;
+border-radius:20px;
+background-size:cover;
+  background-position:center;
+}
+
+#th1
+{
+background-image:url("food2.jpeg");
+
+}
+#th2{
+background-image:url("food3.jpeg");
+}
+
+#th3{
+background-image:url("food4.jpeg");
+
+}
+
+#th4
+{
+background-image:url("food5.jpg");
+
+}
+#th5{
+background-image:url("food6.jpeg");
+}
+
+#th6{
+background-image:url("food7.jpeg");
+
+}

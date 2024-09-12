@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurant Menu</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="home" style="position:fixed;">
+
+<div id="nav">
+<h1 style="opacity:0;">Menu</h1>
+<i class="fa fa-shopping-basket"></i>
+</div>
+
+<div id="searchbox"  >
+
+
+<input type="text" placeholder="Search..." >
+<i class="fa fa-search"></i>
+</div>
+
+</div>
+
+<div id="menu">
+<div class="card">
+  <div class="food food1"></div>
+  <h5 class="name">Margherita</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 20min
+  </div>
+  <div class="price">$12.49</div>
+</div>
+
+<div class="card">
+  <div class="food food2"></div>
+  <h5 class="name">Burger</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 25min
+  </div>
+  <div class="price">$9.99</div>
+</div>
+
+<div class="card">
+  <div class="food food3"></div>
+  <h5 class="name">Salad</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 15min
+  </div>
+  <div class="price">$6.99</div>
+</div>
+
+<div class="card">
+  <div class="food food4"></div>
+  <h5 class="name">Carbonara</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 35min
+  </div>
+  <div class="price">$14.99</div>
+</div>
+
+<div class="card">
+  <div class="food food5"></div>
+  <h5 class="name">Sushi</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 40min
+  </div>
+  <div class="price">$22.49</div>
+</div>
+
+<div class="card">
+  <div class="food food6"></div>
+  <h5 class="name">Tacos</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 10min
+  </div>
+  <div class="price">$5.99</div>
+</div>
+
+<div class="card">
+  <div class="food food7"></div>
+  <h5 class="name">Sandwich</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 15min
+  </div>
+  <div class="price">$4.99</div>
+</div>
+
+<div class="card">
+  <div class="food food8"></div>
+  <h5 class="name">Pancakes</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 25min
+  </div>
+  <div class="price">$7.99</div>
+</div>
+
+<div class="card">
+  <div class="food food9"></div>
+  <h5 class="name">Steak</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 45min
+  </div>
+  <div class="price">$19.99</div>
+</div>
+
+<div class="card">
+  <div class="food food10"></div>
+  <h5 class="name">Cake</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 20min
+  </div>
+  <div class="price">$8.49</div>
+</div>
+
+<div class="card">
+  <div class="food food11"></div>
+  <h5 class="name">Fried Rice</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 30min
+  </div>
+  <div class="price">$11.99</div>
+</div>
+
+<div class="card">
+  <div class="food food12"></div>
+  <h5 class="name">Pasta</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 40min
+  </div>
+  <div class="price">$13.49</div>
+</div>
+
+<div class="card">
+  <div class="food food13"></div>
+  <h5 class="name">Pasta</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 35min
+  </div>
+  <div class="price">$10.99</div>
+</div>
+
+<div class="card">
+  <div class="food food14"></div>
+  <h5 class="name">Maggie</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 20min
+  </div>
+  <div class="price">$8.99</div>
+</div>
+
+<div class="card">
+  <div class="food food15"></div>
+  <h5 class="name">Curry</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 30min
+  </div>
+  <div class="price">$9.99</div>
+</div>
+
+<div class="card">
+  <div class="food food16"></div>
+  <h5 class="name">Dumplings</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 25min
+  </div>
+  <div class="price">$7.49</div>
+</div>
+
+<div class="card">
+  <div class="food food17"></div>
+  <h5 class="name">Pizza</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 30min
+  </div>
+  <div class="price">$12.99</div>
+</div>
+
+<div class="card">
+  <div class="food food18"></div>
+  <h5 class="name">Ice Cream</h5>
+  <div class="ratings">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  <div class="timer">
+    <i class="fa fa-hourglass"></i> 10min
+  </div>
+  <div class="price">$4.49</div>
+</div>
+
+<div id="menunav">
+<h2 id="h2">All</h2>
+<h4 class="h4">Dinner</h4>
+<h4 class="h4">Lunch</h4>
+<h4 class="h4">Dessert</h4>
+<h4 class="h4">Breakfast</h4>
+<h4 class="h4">Snacks</h4>
+<h4 class="h4">Drinks</h4>
+
+</div>
+
+</div>
+<div id="bottomnav">
+<i class="fas fa-home"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-newspaper"></i>
+<a href="profile.html"><i class="fas fa-user"></i></a>
+
+</div>
+
+<div id="fooddetails">
+<div id="foodimage" ></div>
+
+<div id="foodinfo"  >
+
+<div id="info1" >
+  <div>
+  <h5 class="names" id="nammes"></h5>
+  <div class="prices" id="pricee">$12.99</div>
+  </div>
+  
+  <div id="esehi"> 
+  
+  <div class="timers" id="timmer">
+    <i class="fa fa-hourglass"></i> 20min
+  </div>
+  
+  <div class="rating" id="ratingg">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+    <i class="fa fa-star-o"></i>
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  
+  <div id="info2" style="margin-top:-2vh;">
+ <p>
+ The sun was shining brightly
+  in the clear blue sky. 
+  A gentle breeze rustled the 
+  leaves of the trees. The sound 
+  of birds chirping filled the air.
+   Small stream ran quietly through
+    the forest. It was a peaceful day
+   in nature.</p>
+
+  </div>
+  <h3 
+  style="position:absolute;
+  top:25vh;
+
+  left:5vw;"
+   >You might also like this</h3>
+  
+    
+    <div id="info3" >
+
+<table>
+<tdata>
+<tr>
+<th id="th1" ></th>
+<th id="th2" ></th>
+<th id="th3"></th>
+<th id="th4"></th>
+<th id="th5"></th>
+<th id="th6"></th>
+
+
+
+</tr>
+</tdata></table>
+    </div>
+    
+</div>
+
+<div id="navbar">
+<i class="fa-solid iconn fa-chevron-left"></i>
+<i class="fa-solid fa-basket-shopping"></i>
+</div>
+
+</div>
+ 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="script.js"></script>
+</body>
+</html>
