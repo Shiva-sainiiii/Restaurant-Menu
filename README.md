@@ -1,6 +1,6 @@
 _Restaurant Menu Website_ 📊
 
-![Game LayOut](restaurant.jpg)
+![Game LayOut](restaurant1.jpg)
 
 link :
 
